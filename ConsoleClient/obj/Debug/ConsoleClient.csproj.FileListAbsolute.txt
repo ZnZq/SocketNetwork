@@ -1,0 +1,9 @@
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\bin\Debug\ConsoleClient.exe
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\bin\Debug\ConsoleClient.pdb
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\bin\Debug\SocketNetwork.dll
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\bin\Debug\SocketNetwork.pdb
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\obj\Debug\ConsoleClient.csproj.CopyComplete
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\obj\Debug\ConsoleClient.exe
+E:\ZnZ\C#\SocketNetwork\ConsoleClient\obj\Debug\ConsoleClient.pdb
