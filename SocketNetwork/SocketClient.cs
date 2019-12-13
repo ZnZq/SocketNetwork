@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
@@ -27,6 +28,7 @@ namespace SocketNetwork
         private ReceiveBuffer buffer;
         private Socket socket;
 
+        public Dictionary<string, object> Tag = new Dictionary<string, object>();
         public bool IsServerClient { get; private set; }
 
         private IPEndPoint _RemoteEndPoint;
@@ -120,7 +122,15 @@ namespace SocketNetwork
 
         private void ReceiveAsync()
         {
-            socket.BeginReceive(lenBuffer, 0, lenBuffer.Length, SocketFlags.None, ReceiveCallback, null);
+            try
+            {
+                socket.BeginReceive(lenBuffer, 0, lenBuffer.Length, SocketFlags.None, ReceiveCallback, null);
+            }
+            catch (SocketException)
+            {
+                Close();
+            }
+            catch { }
         }
 
         private void ReceiveCallback(IAsyncResult ar)

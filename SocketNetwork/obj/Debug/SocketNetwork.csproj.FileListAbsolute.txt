@@ -2,3 +2,4 @@ E:\ZnZ\C#\SocketNetwork\SocketNetwork\bin\Debug\SocketNetwork.dll
 E:\ZnZ\C#\SocketNetwork\SocketNetwork\bin\Debug\SocketNetwork.pdb
 E:\ZnZ\C#\SocketNetwork\SocketNetwork\obj\Debug\SocketNetwork.dll
 E:\ZnZ\C#\SocketNetwork\SocketNetwork\obj\Debug\SocketNetwork.pdb
+E:\ZnZ\C#\SocketNetwork\SocketNetwork\obj\Debug\SocketNetwork.csprojAssemblyReference.cache
